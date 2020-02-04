@@ -1,0 +1,130 @@
+body {
+    background-color: #1E4221;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5471DB;
+}
+
+header {
+    background-color: #6BE875;
+    height: 100px;
+}
+
+main {
+    background-color: #2A5C2E;
+}
+
+footer {
+    background-color: #306935;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 0 30px 50px;
+    padding: 10px 10px 10px 130px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #5471DB;
+}
+
+a:hover {
+    background-color: #5471DB;
+}
+
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5471DB;
+    padding: 15px;
+    font-size: 25px;
+}
+
+#p1 {
+    font-size: 20px;
+    text-decoration: underline;
+    color: rgba(158, 198, 214, 0.459);
+    padding-left: 10px;
+    text-align: center;
+}
+
+.imgbg {
+    height: 270px;
+    width: 100%;
+    background-color: black;
+}
+
+img {
+    width: 310px;
+    padding-left: 5px;
+    padding-top: 20px;
+    height: 220px;
+}
+
+.para2 {
+    background-color: black;
+    color: #5471DB;
+    padding: 0 10px 0 10px;
+    font-size: 15px;
+}
+
+#pos1 {
+    width: 25%;
+    height: 150px;
+    color: 5471DB;
+    background-color: black;
+    position: relative;
+    float: left;
+}
+
+#pos2 {
+    width: 25%;
+    height: 150px;
+    color: 5471DB;
+    background-color: black;
+    position: relative;
+    float: left
+}
+
+#pos3 {
+    width: 25%;
+    height: 150px;
+    color: 5471DB;
+    background-color: black;
+    position: relative;
+    float: left
+}
+
+#pos4 {
+    width: 25%;
+    height: 150px;
+    color: 5471DB;
+    background-color: black;
+    position: relative;
+    float: left
+}
+
+button {
+    width: 310px;
+    height: 50px;
+    background-color: rgb(112, 36, 148);
+}
+
+#bt1 {
+    margin-left: 10px;
+}
+
+button:hover {
+    background: blue;
+}
+
+footer {
+    background-color: chartreuse;
+    font-size: 20px;
+    text-align: center;
+}
