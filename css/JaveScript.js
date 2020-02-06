@@ -14,3 +14,23 @@ if (hourNow > 18) {
 }
 
 document.write('<h3>' + greeting + '</h3>');
+
+
+var showOrder = funcation();
+var userOrder;
+var orderImage = "";
+while (showOrder != "house" && showOrder != "hotel") {
+    showOrder = prompt = "please enter house or hotel";
+}
+var numberOfImage;
+var numberOfImage = prompt = "how many imaes do you want";
+for (var i = 0; i < numberOfImage; i++) {
+    console.log("index is" + i);
+    if (userOrder === "hotel") {
+        orderImage = 'img src="imghotel"'
+    } else if (userOrder === "house") {
+        orderImage = 'img src="imghouse'
+    }
+    document.write('<h3>' + greeting + '</h3>');
+
+}
